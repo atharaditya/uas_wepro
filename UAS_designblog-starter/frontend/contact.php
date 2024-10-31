@@ -25,7 +25,7 @@ Author URL: http://w3layouts.com
     <!--/nav-->
     <nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <span class="fa fa-pencil-square-o"></span> Design Blog</a>
         <!-- if logo is image enable this   
 						<a class="navbar-brand" href="#index.html">
@@ -42,7 +42,7 @@ Author URL: http://w3layouts.com
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item @@home__active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item dropdown @@category__active">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -50,12 +50,12 @@ Author URL: http://w3layouts.com
                 Categories <span class="fa fa-angle-down"></span>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item @@ls__active" href="lifestyle.html">Lifestyle posts</a>
-                <a class="dropdown-item @@cp__active" href="culture.html">Culture posts</a>
+                <a class="dropdown-item @@ls__active" href="lifestyle.php">Lifestyle posts</a>
+                <a class="dropdown-item @@cp__active" href="culture.php">Culture posts</a>
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
           </ul>
 
@@ -114,7 +114,7 @@ Author URL: http://w3layouts.com
 
   <nav id="breadcrumbs" class="breadcrumbs">
     <div class="container page-wrapper">
-      <a href="index.html">Home</a> / <span class="breadcrumb_last" aria-current="page">Contact</span>
+      <a href="index.php">Home</a> / <span class="breadcrumb_last" aria-current="page">Contact</span>
     </div>
   </nav>
   <!-- contact-form 2 -->
