@@ -89,7 +89,7 @@
                                 </thead>
                                 <tbody>
                                     <?php
-                                    require '../controller/koneksi.php';
+                                    require '../controller/koneksidb.php';
 
                                     $sql = "SELECT * FROM post";
                                     $result = $conn->query($sql);
