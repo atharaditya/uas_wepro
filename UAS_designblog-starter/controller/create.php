@@ -39,7 +39,7 @@ if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpe
 if ($uploadOk == 1) {
   // Pindahkan file ke direktori uploads
   if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
-    require 'koneksi.php';
+    require 'koneksidb.php';
 
     $judul = $_POST['judul'];
     $deskripsi = $_POST['deskripsi'];

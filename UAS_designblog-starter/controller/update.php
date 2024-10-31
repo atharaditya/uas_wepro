@@ -7,7 +7,7 @@ $target_dir = "uploads/";
 $uploadOk = 1;
 
 // Include koneksi
-require 'koneksi.php';
+require 'koneksidb.php';
 
 // Ambil ID dari POST
 $id = $_POST['id'];
