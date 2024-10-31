@@ -125,7 +125,7 @@ Author URL: http://w3layouts.com
         <!-- block -->
         <div class="row">
             <div class="col-lg-8 most-recent">
-                <h3 class="section-title-left"><Lifestyle class="php"></Lifestyle></h3>
+                <h3 class="section-title-left">Lifestyle</h3>
                
                 <div class="row">
                     <div class="col-lg-6 col-md-6 item">
