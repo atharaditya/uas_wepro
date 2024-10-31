@@ -125,7 +125,7 @@ Author URL: http://w3layouts.com
                     <h3 class="section-title-left">Most Recent posts </h3>
                     <div class="list-view ">
                         <?php
-                        require '../controller/koneksi.php';
+                        require '../controller/koneksidb.php';
 
                         $sql = "SELECT * FROM post";
                         $result = $conn->query($sql);
