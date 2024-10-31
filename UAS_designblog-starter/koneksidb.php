@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost'; // Ganti dengan host database Anda
-$db = 'blog_database'; // Nama database yang telah dibuat
+$db = 'uas_atha'; // Nama database yang telah dibuat
 $user = 'root'; // Ganti dengan username database Anda
 $pass = ''; // Ganti dengan password database Anda
 
