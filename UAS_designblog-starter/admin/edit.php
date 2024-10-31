@@ -1,5 +1,5 @@
 <?php
-require '../controller/koneksi.php';
+require '../controller/koneksidb.php';
 
 if (isset($_GET['id'])) {
   $id = intval($_GET['id']);
